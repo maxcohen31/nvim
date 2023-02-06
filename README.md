@@ -1,2 +1,3 @@
 # nvim
-nvim configuration files
+## nvim configuration files
+Configuration files for Neovim - Python, C++
