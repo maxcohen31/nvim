@@ -16,6 +16,7 @@ return require('packer').startup(function(use)
   -- use 'ellisonleao/gruvbox.nvim'
   -- use 'folke/tokyonight.nvim'
   -- use "EdenEast/nightfox.nvim"
+  use 'fedepujol/move.nvim'
   use "rebelot/kanagawa.nvim"
   use {
     'nvim-tree/nvim-tree.lua',
