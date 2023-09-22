@@ -48,3 +48,14 @@ require('lspconfig').pyright.setup{
   }
 }
 
+local lspconfig = require("lspconfig")
+
+lspconfig.tsserver.setup {
+    on_attach = on_attach,
+    capabilities = capabilities,
+    init_options = {
+        preferences = {
+            disableSuggestion = true
+        }
+    }
+}
